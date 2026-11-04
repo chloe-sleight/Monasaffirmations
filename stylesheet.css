@@ -1,0 +1,47 @@
+.painting {
+  opacity: 0;
+  filter: blur(0px) grayscale(0%);
+  transition:
+    opacity 0s ease,
+    filter 0s ease,
+    transform 2s ease;
+}
+.painting:hover {
+  opacity: 0;
+  filter: blur(0) grayscale(0);
+  transform: rotate(0deg) scale(1.06);
+  z-index: 5;
+}
+
+
+.Fortune {
+background-size: 100%;
+  background-image: url(Images/Dark\ Purple.jpg); 
+  
+    
+
+}
+.page-title {
+text-align: center;
+    text-decoration: dotted;
+    font-family: fantasy;
+    color: white;
+    font-size: 48pt;
+}
+
+.center {
+  display: flex;
+  margin: 100px;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  background-color: rgb(213, 185, 242);
+  font-size: 20pt;
+}
+
+.content {
+  text-align: center;
+  margin-top: 0;
+}
